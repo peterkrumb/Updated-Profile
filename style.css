@@ -84,14 +84,6 @@ body {
 }
 
 .container .column.active .bg.bg1 {
-    background: url(./images/bg1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    transition: 0.5s;
-}
-
-.container .column.active .bg.bg2 {
     background: url(./images/bg2.png);
     background-size: cover;
     background-attachment: fixed;
@@ -99,8 +91,16 @@ body {
     transition: 0.5s;
 }
 
+.container .column.active .bg.bg2 {
+    background: url(./images/bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 0.5s;
+}
+
 .container .column.active .bg.bg3 {
-    background: url(./images/bg3.jpg);
+    background: url(./images/bg4.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -108,7 +108,7 @@ body {
 }
 
 .container .column.active .bg.bg4 {
-    background: url(./images/bg4.jpg);
+    background: url(./images/bg3.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
