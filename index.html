@@ -6,58 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/92d00a434c.js" crossorigin="anonymous"></script>
 
-<body>
-    <div class="container">
-        <div class="column active">
-            <div class="content">
-                <h1>1</h1>
-                <div class="box">
-                    <h2>What is lorem ipsum?</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam delectus cum labore explicabo repellat laboriosam. Consequatur eos unde blanditiis labore accusantium in laborum soluta a ducimus. Necessitatibus iure obcaecati eaque.</p>
+    <body>
+        <div class="container">
+            <div class="column active">
+                <div class="content">
+                    <h1>1</h1>
+                    <div class="box" style="background: url(https://www.toptal.com/designers/subtlepatterns/patterns/spikes.png);">
+                        <h2>Who Am I?</h2>
+                        <p>My name is Peter Krumb, I am an aspiring software developer.</p>
+                        <button class="button"><a href="about.html" style="color: white;"><span>Read More</span></a></button><br/><br/>
+                    </div>
                 </div>
+                <div class="bg bg1"></div>
             </div>
-            <div class="bg bg1"></div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <h1>2</h1>
-                <div class="box">
-                    <h2>What is lorem ipsum?</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam delectus cum labore explicabo repellat laboriosam. Consequatur eos unde blanditiis labore accusantium in laborum soluta a ducimus. Necessitatibus iure obcaecati eaque.</p>
+            <div class="column">
+                <div class="content">
+                    <h1>2</h1>
+                    <div class="box">
+                        <h2>What have I done?</h2>
+                        <p>Click below to see a few of my projects.</p>
+                        <button class="button"><a href="projects.html" style="color: white;"><span>View</span></a></button><br/><br/>
+                    </div>
                 </div>
+                <div class="bg bg2"></div>
             </div>
-            <div class="bg bg2"></div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <h1>3</h1>
-                <div class="box">
-                    <h2>What is lorem ipsum?</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam delectus cum labore explicabo repellat laboriosam. Consequatur eos unde blanditiis labore accusantium in laborum soluta a ducimus. Necessitatibus iure obcaecati eaque.</p>
+            <div class="column">
+                <div class="content">
+                    <h1>3</h1>
+                    <div class="box">
+                        <h2>How can I contact you?</h2>
+                        <p><button class="button  email" style="font-size: 16px; width: 235px;"><i class="far fa-envelope"></i>    petekrumb@gmail.com</button><br/><br/><button class="button  phone" style="font-size: 16px;"><i class="fas fa-phone"></i>    tel: 1234 567 890</button></p>
+
+                    </div>
                 </div>
+                <div class="bg bg3"></div>
             </div>
-            <div class="bg bg3"></div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <h1>4</h1>
-                <div class="box">
-                    <h2>What is lorem ipsum?</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam delectus cum labore explicabo repellat laboriosam. Consequatur eos unde blanditiis labore accusantium in laborum soluta a ducimus. Necessitatibus iure obcaecati eaque.</p>
+            <div class="column">
+                <div class="content">
+                    <h1>4</h1>
+                    <div class="box">
+                        <h2>What's Next?</h2>
+                        <p>
+                            Read about a few of the technologies I plan on implementing on my future!
+                        </p>
+                        <button class="button"><a href="about.html" style="color: white;"><span>Read More</span></a></button>
+
+                    </div>
                 </div>
+                <div class="bg bg4"></div>
             </div>
-            <div class="bg bg4"></div>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script type="text/javascript">
-        $(document).on('mouseover', '.container .column', function() {
-            $(this).addClass('active').siblings().removeClass('active')
-        })
-    </script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+            $(document).on('mouseover', '.container .column', function() {
+                $(this).addClass('active').siblings().removeClass('active')
+            })
+        </script>
+    </body>
 
 </html>
